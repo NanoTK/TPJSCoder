@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "prodName": "PINO AROMATIZANTE",
+        "precio": 200,
+        "stock": 20,
+        "img": "producto1.png"
+    },
+    {
+        "id": 2,
+        "prodName": "SPRAY AROMATIZANTE",
+        "precio": 400,
+        "stock": 20,
+        "img": "producto2.png"
+    },
+    {
+        "id": 3,
+        "prodName": "LATA GEL AROMATIZANTE",
+        "precio": 250,
+        "stock": 20,
+        "img": "producto3.png"
+    },
+    {
+        "id": 4,
+        "prodName": "SHAMPOO 500cc",
+        "precio": 500,
+        "stock": 20,
+        "img": "producto4.png"
+    },
+    {
+        "id": 5,
+        "prodName": "SHAMPOO 1000cc",
+        "precio": 900,
+        "stock": 20,
+        "img": "producto5.png"
+    },
+    {
+        "id": 6,
+        "prodName": "PAÑO MICROFIBRA 20x20",
+        "precio": 350,
+        "stock": 20,
+        "img": "producto6.png"
+    },
+    {
+        "id": 7,
+        "prodName": "GAMUZA SINTETICA",
+        "precio": 500,
+        "stock": 20,
+        "img": "producto7.png"
+    },
+    {
+        "id": 8,
+        "prodName": "CEPILLO LAVA AUTO",
+        "precio": 700,
+        "stock": 20,
+        "img": "producto8.png"
+    },
+    {
+        "id": 9,
+        "prodName": "GUANTE MICROFIBRA",
+        "precio": 600,
+        "stock": 20,
+        "img": "producto9.png"
+    },
+    {
+        "id": 10,
+        "prodName": "COMPRESOR Y HERRAM.",
+        "precio": 4000,
+        "stock": 6,
+        "img": "producto10.png"
+    },
+    {
+        "id": 11,
+        "prodName": "CARGADOR DE BATERIAS",
+        "precio": 12000,
+        "stock": 6,
+        "img": "producto11.png"
+    },
+    {
+        "id": 12,
+        "prodName": "BIDON NAFTA 10 LITROS",
+        "precio": 1500,
+        "stock": 10,
+        "img": "producto12.png"
+    },
+    {
+        "id": 13,
+        "prodName": "COMPRESOR MINI",
+        "precio": 1550,
+        "stock": 10,
+        "img": "producto13.png"
+    },
+    {
+        "id": 14,
+        "prodName": "GATO TIJERA 1 TONELADA",
+        "precio": 4500,
+        "stock": 20,
+        "img": "producto14.png"
+    },
+    {
+        "id": 15,
+        "prodName": "GATO CARRITO 2 TONELADA",
+        "precio": 9000,
+        "stock": 10,
+        "img": "producto15.png"
+    },
+    {
+        "id": 16,
+        "prodName": "KIT LAMPARAS CREE LED",
+        "precio": 2500,
+        "stock": 20,
+        "img": "producto16.png"
+    },
+    {
+        "id": 17,
+        "prodName": "LIMPIADORES TOXIC SHINE",
+        "precio": 1100,
+        "stock": 40,
+        "img": "producto17.png"
+    },
+    {
+        "id": 18,
+        "prodName": "AEROSOL PINTURA STRECH",
+        "precio": 1400,
+        "stock": 40,
+        "img": "producto18.png"
+    }
+]

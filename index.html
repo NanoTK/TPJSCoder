@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <!-- Descripcion y Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=5.0">
+    <meta name="description"
+        content="La Casa del Parabrisas, tienda de autopartes y accesorios para autos de todas las marcas.">
+    <meta name="keywords"
+        content="Autos, Camionetas, Chevrolet, Fiat, Ford, Renault, Volkswagen, Optica, Faros, Paragolpes, Guardabarros">
+    <!--Open Graph-->
+    <meta property="og:title" content="La Casa del Parabrisas">
+    <meta property="og:image" content="img/LogoNegoPS.png">
+    <meta property="og:author" content="Mariano Garriga">
+    <meta property="og:description"
+        content="La Casa del Parabrisas. Con mas de 30 años en el rubro contamos con un amplio stock y personal capacitado para resolver los problemas de su auto.">
+    <!-- Logo en titulo Pagina -->
+    <link rel="icon" href="img/LogoNegoPS.png" type="image/x-icon">
+    <!-- Bootswatch y Mi Css -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>LA CASA DEL PARABRISAS | Repuestos y accesorios para autos de todas las marcas.</title>
+</head>
+<body>
+    <header>
+        <!-- NAVBAR Bootstrap -->
+        <div class="miHeader container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="img/LogoNegoPS.png" alt="LogoLCP"
+                            class="logoNegocio"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-2 navbar-nav-scroll" style="--bs-scroll-height: auto;">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="">COMPRAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">MARCAS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">NOSOTROS</a>
+                            </li>
+                        </ul>
+                        <button id="botonDarkMode" class="btn2 btn-darko">Dark</button>
+                        <button id="botonLightMode" class="btn2 btn-lighto">Light</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="Productos text-center px-5">
+        <!-- CARRITO -->
+        <br><br>
+        <h3>RESUMEN DE PEDIDO</h3>
+        <table class="table container-fluid">
+            <thead>
+                <tr>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Imagen</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Precio Unitario</th>
+                    </tr>
+            </thead>
+            <tbody id="tablaCarrito"></tbody>
+        </table>
+        <br><br>
+        <a id="botonProcesar" data-bs-toggle="modal" data-bs-target="#idModal" class="btn btn-primary">PROCESAR</a>
+        <a id="botonVaciarCarrito" class="btn btn-primary">VACIAR CARRITO</a>
+        <br><br>
+        <br><br>
+        <!-- PRODUCTOS DESDE EL FETCH -->
+        <div id="divArticulos" class="contenedor row"></div>
+        <!-- MODAL PROCESAR -->
+        <div class="carrito modal fade" id="idModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body" id="modal-body">
+                    </div>
+                    <div class="row ml-ato">
+                        <p id="precioTotal"></p>
+                    </div>
+                    <div class="botonFinComp modal-footer"> 
+                        <button type="button" data-bs-dismiss="modal" class="btn btn-primary"id="botonFinalizarCompra">Finalizar Compra</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">VOLVER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------->
+
+    </section>
+<!-- FOOTER -->
+    <footer class="py-4 miFooter">
+        <span>&copy; Copyright 2021 - Todos los derechos Reservados.</span>
+        <p>Siguenos en nuestras redes.</p>
+        <a class="redSocial" href="https://facebook.com/lacasadelparabrisas" target="_blank"><img src="img/facebook.png" width="35" height="35" title="Visitanos en Facebook."></a>
+        <a class="redSocial" href="https://instagram.com/lacasadelparabrisassn/" target="_blank"><img src="img/instagram.png" width="35" height="35" title="Visitanos en Instagram."></a>
+        <a class="redSocial" href="https://web.whatsapp.com/send?phone=+5493364696217" target="_blank"><img src="img/whatsapp.png" width="35" height="35" title="Escribenos por Whatsapp"></a>
+    </footer>
+<!-- JS --> 
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="Articulo.js"></script>
+    <script src="script.js"></script>
+    <script src="funciones.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    background-image: linear-gradient(to right, #ffd900, black, black);
+    color: white;
+}
+
+.miHeader {
+    width: 100%;
+    font-size: 1em;
+}
+
+.logoNegocio {
+    width: 30%;
+}
+
+.navbar {
+    font-size: 1.2em;
+    margin: 0px;
+    background-image: linear-gradient(to right, #ffd900, black, black);
+    border: 0px solid transparent;
+}
+
+.miFooter {
+    width: 100%;
+    color: #f5f5f5;
+    text-align: center;
+    background: #121212;
+    font-size: 1rem;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: justify;
+    margin: 10px 0px 25px;
+}
+
+.btn2 {
+    background-color: #ffd900;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 18%;
+}
+
+.btn-darko {
+    background-color: black;
+    color: #ffd900;
+    border: 1px solid #ffd900;
+}
+
+.card {
+    width: 18rem;
+    background-color: rgb(224, 224, 218);
+    color: black;
+    border: 2px solid black;
+}
+
+.carrito {
+    color: black;
+    font-size: 1rem;
+    border: 2px solid black;
+    width: 27rem;
+    
+}
+.cardCarrito{  
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+}
+.artiCarro{
+    width: 27rem;
+}
+.botonCant {
+    width: 60px;
+    color: black; 
+    background-color:yellow   
+}
+.textoCarro {
+    width: 27rem;
+}
+.botonFinComp {
+    align-items: center;
+}
+
+.imgProd {
+    width: auto;
+    height: auto;
+}
+
+.tamPrecio{
+    font-size: 1.5rem;
+}
+
+.btnCompra {
+    background-color: #ffd900;
+    color: black;
+    border: 2px solid black;
+}
+
+.table {
+    color: white;
+    width: 45%;
+    text-align: center;
+}
+
+/*CAMBIAR DARKMODE*/
+.darkMode {
+    background-image: url("");
+    background-image: linear-gradient(to left, #ffd900, black, black);
+    color: white;
+}
+.darkMode .card {
+    background-color: rgb(24, 21, 21);
+    color: white;
+    border: 1px solid #52514c;
+}
+.darkMode .btnCompra {
+    background-color: #ffd900;
+    color: black;
+    border: 2px solid white;
+}
+.darkMode .navbar {
+    background-image: linear-gradient(to left, #ffd900, black, black);
+}
+
+.darkMode .cardCarrito{
+    background-color: rgb(24, 21, 21);
+    color: white;
+    border: 1px solid #52514c;
+}
+
+/*CAMBIAR DARKMODE*/
+@media (max-width: 640px) {
+    .contenedor{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 30rem;
+    }
+}
